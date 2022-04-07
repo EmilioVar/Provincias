@@ -1,0 +1,51 @@
+*{
+    font-family: "lato", sans-serif;
+}
+body{
+    margin:0;
+    border-top: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Josefin Sans", sans-serif;
+}
+.bg-color{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    border-radius: 25%;
+}
+
+header{
+    background-image: url("./media/img/surface-eChLA6svf_Y-unsplash.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 100%;
+    border-radius: 0% 0% 25% 25%;
+    font-size: 20px;
+    height: 200px;
+    margin-bottom:30px;
+}
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    width: 60px;
+    height: 40px;
+    border-radius: 0%;
+}
+button:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: 2s;
+}
+a{
+    text-decoration: none;
+}
+form{
+    border: 4px double red;
+    width: 40%;
+    border-radius: 0% 15% 15% 0%;
+    background-image: url(https://media.istockphoto.com/photos/form-background-picture-id1158641246?k=20&m=1158641246&s=170667a&w=0&h=NVdWKGemA_p3WbwY9XNG8gU_POUUePHoW0S3I4yHKt0=);
+    background-size: cover;
+    background-repeat: none;
+}

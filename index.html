@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--añadir favicon-->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <!--Final importación google font-->
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/6ec5d09d9f.js" crossorigin="anonymous"></script>
+    <title>IVT</title>
+    
+</head>
+
+<body>
+    <h1 style="font-family: helvetica; margin-bottom: 10px"><img src="./cohete.gif" width="100" alt="icono">Mi preciosa página</h1>
+    <header>
+        <nav>
+            <a class="nav" href="index.html">Inicio</a>
+            <a class="nav" href="lugares.html">Lugares</a>
+            <a class="nav" href="contacto.html">Contacto</a>
+            <input type="text" name="user" placeholder="usuario">
+            <input type="password" name="password" placeholder="contraseña">
+            <a href="#formulario">Ir al formulario</a>
+        </nav>
+        <img src="./media/img/logoipsum-logo-38.svg" alt="logotipo">
+        <i class="fa-brands fa-accessible-icon"></i>
+        <section>
+            <div>
+                <h1>International Valencian turisming</h1>
+                <!--encabezado-->
+                <h2>para los más valientes</h2>
+                <!--subtítulo-->
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--section-->
+        <section style="background-color: green;">
+            <h1>Zonas comunes</h1>
+            <!--article-->
+            <article class="bg-color">
+                <h1>Plaza de la Virgen<i class="fa-brands fa-accessible-icon"></i></h1>
+                <p>Ubicada en uno de los más majestuosos lugares de la ciudad, se alza un imponente monumento a poseidon
+                    y tal y cual. Interesantisimamente visible desde el lugar...</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Plaza_de_la_Virgen%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_163.JPG"
+                    alt="plaza de la virgen" width="200px">
+                    <button><a href="lugares.html">Leer más</a></button>
+                </article>
+                <!--article-->
+                <article class="bg-color">
+                    <h1>Cauce del río Turia</h1>
+                    <p>El rio Turia es el más bonito de la tierra. Tiene una distancia de 8km<sup>cuadrados</sup>...</p>
+                    <img src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2021/06/11/60c2f8f7558d5.jpeg"
+                    alt="la ciencia" width="200px">
+                    <button><a href="lugares.html">Leer más</a></button>
+                </article>
+                <!--article-->
+                <article class="bg-color">
+                    <h1>Ciudad de las artes y las ciencias</h1>
+                    <p>La ciudad de las artes y las ciencias es de lo más bonito de valencia. Tiene un gran jardín,
+                        acompañado de majestuosas ocas y coronado con una especie de espada que sobresale por toda
+                        <strong>la parte de valencia.</strong></p>
+                        <img src="https://media.wsimag.com/attachments/1659e166d2d16f16e3e4fa668faaacaa249c103c/store/fill/1090/613/403e3c3c6f557a89edf9263164f4556b1f887688fce2c81ad75b03fbb690/Ciudad-de-las-Artes-y-las-Ciencias-de-Valencia.jpg"
+                        alt="ciudad de las ciencias" width="200px">
+                        <button><a href="lugares.html">leer más</a></button>
+                    </article>
+                </section>
+                <section id="formulario">
+                    <!--formulario-->
+                    <h2>Formulario de contacto en inicio</h2>
+                    <p>escríbenos para más información</p>
+                    <form action="/contact" method="post">
+                        <div>
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Nombre" name="name">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" placeholder="correo electrónico" name="mail">
+                        </div>
+                        <div>
+                            <label for="">Edad</label>
+                            <input type="number" step="1" placeholder="Ingresa tu Edad" name="age">
+                        </div>
+                        <div>
+                            <label for="">Tu foto</label>
+                            <input type="file">
+                        </div>
+                        <div>
+                            <label for="">Contraseña</label>
+                            <input type="password">
+                        </div>
+                        <div>
+                            <label for="">Confirma Contraseña</label>
+                            <input type="rpassword">
+                        </div>
+                        <div>
+                            <label for="">elige un color de manzana</label>
+                            <input type="color">
+                        </div>
+                        <div>
+                            <label for="">Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit">Enviar datos</button>
+                    </form>
+                </section>
+            </main>
+            <br>
+            <!--footer-->
+            <footer>
+                <div>
+                    <p>para más información, consulte a mi abogado</p>
+                </div>
+                <div>
+                    <p>Esperamos volver a verle pronto</p>
+                </div>
+                <div>
+                    <h4>Índice</h4>
+                    <nav>
+                        <a class="nav" href="index.html">Inicio</a>
+                        <a class="nav" href="lugares.html">Lugares</a>
+                        <a class="nav" href="contacto.html">Contacto</a>
+                        <a href="#formulario">Ir al formulario</a>
+                    </nav>
+                </div>
+            </footer>
+        </body>
+        
+        </html>
